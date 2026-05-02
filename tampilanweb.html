@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cintaiproduk.local - Toko Barang Antik</title>
+    <style>
+        /* CSS Sederhana untuk mempercantik tampilan */
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f1ea; /* Warna krem kertas tua */
+            color: #332b2b;
+        }
+
+        header {
+            background-color: #5d4037; /* Warna cokelat kayu */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            border-bottom: 2px solid #5d4037;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .price {
+            color: #8d6e63;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        footer {
+            background: #332b2b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>cintaiproduk.local</h1>
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#">Koleksi</a>
+            <a href="#">Tentang Kami</a>
+            <a href="#">Kontak</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h2>Temukan Keindahan dari Masa Lalu</h2>
+            <p>Koleksi barang antik pilihan untuk melengkapi estetika hunian Anda.</p>
+        </section>
+
+        <section class="product-grid">
+            <!-- Produk 1 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/200x150" alt="Lampu Minyak">
+                <h3>Lampu Minyak Perunggu</h3>
+                <p>Asli dari era 1920-an, masih berfungsi dengan baik.</p>
+                <p class="price">Rp 750.000</p>
+                <button>Detail Produk</button>
+            </div>
+
+            <!-- Produk 2 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/200x150" alt="Gramofon">
+                <h3>Gramofon Klasik</h3>
+                <p>Pemutar piringan hitam tua dengan corong kuningan.</p>
+                <p class="price">Rp 2.500.000</p>
+                <button>Detail Produk</button>
+            </div>
+
+            <!-- Produk 3 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/200x150" alt="Jam Dinding">
+                <h3>Jam Dinding Kayu Jati</h3>
+                <p>Jam mekanik dengan denting yang sangat merdu.</p>
+                <p class="price">Rp 1.200.000</p>
+                <button>Detail Produk</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 cintaiproduk.local - Melestarikan Warisan Klasik</p>
+    </footer>
+
+</body>
+</html>
