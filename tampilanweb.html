@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya</title>
-    <!-- Menggunakan Tailwind CSS untuk styling yang cepat dan modern -->
+    <title>Portofolio | Muhammad Dimas</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
 
-    <!-- NAVIGASI -->
     <nav class="sticky top-0 bg-white/80 backdrop-blur-md border-b border-gray-100 z-50">
         <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-xl font-bold tracking-tight text-gray-900">Nama<span class="text-indigo-600">Anda.</span></a>
+            <a href="#" class="text-xl font-bold tracking-tight text-gray-900">Dimas<span class="text-indigo-600">.</span></a>
             <div class="space-x-6 text-sm font-medium">
                 <a href="#tentang" class="hover:text-indigo-600 transition">Tentang</a>
                 <a href="#proyek" class="hover:text-indigo-600 transition">Proyek</a>
@@ -21,22 +19,23 @@
         </div>
     </nav>
 
-    <!-- HERO SECTION -->
     <section class="max-w-5xl mx-auto px-6 pt-24 pb-20 flex flex-col items-start justify-center min-h-[70vh]">
         <p class="text-indigo-600 font-semibold tracking-wide uppercase text-sm mb-3">Halo, saya</p>
         <h1 class="text-4xl md:text-6xl font-extrabold text-gray-950 tracking-tight leading-none mb-6">
-            Seorang Web Developer & <br>Desainer Antarmuka.
+            Muhammad Dimas
         </h1>
+        <p class="text-xl font-medium text-gray-700 mb-2">
+            Machine Learning Engineer
+        </p>
         <p class="text-lg text-gray-600 max-w-2xl mb-8 leading-relaxed">
-            Saya membantu bisnis dan individu membangun produk digital yang fungsional, estetik, dan berpusat pada kenyamanan pengguna.
+            Mahasiswa di <span class="font-semibold text-gray-900">STMIK Tazkia Bogor</span> yang berfokus pada pengembangan kecerdasan buatan, pemrosesan data, dan pembangunan model prediktif untuk menyelesaikan masalah nyata.
         </p>
         <div class="flex space-x-4">
-            <a href="#proyek" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded-lg shadow-sm transition">Lihat Karya</a>
+            <a href="#proyek" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded-lg shadow-sm transition">Lihat Proyek</a>
             <a href="#kontak" class="border border-gray-300 hover:border-gray-400 font-medium px-6 py-3 rounded-lg transition">Hubungi Saya</a>
         </div>
     </section>
 
-    <!-- TENTANG SAYA -->
     <section id="tentang" class="bg-white border-y border-gray-100 py-20">
         <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-3 gap-12">
             <div>
@@ -44,74 +43,77 @@
             </div>
             <div class="md:col-span-2 space-y-6 text-gray-600 leading-relaxed">
                 <p>
-                    Saya adalah seorang profesional yang berfokus pada pengembangan web front-end. Saya suka mengubah masalah yang kompleks menjadi desain antarmuka yang bersih, intuitif, dan interaktif.
+                    Sebagai seorang <strong>Machine Learning Engineer</strong>, saya memiliki ketertarikan besar dalam menganalisis data dan melatih model AI. Saat ini, saya sedang aktif menempuh studi di STMIK Tazkia Bogor sembari mendalami berbagai algoritma pembelajaran mesin untuk menciptakan solusi teknologi yang cerdas dan efisien.
                 </p>
                 <div>
-                    <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-3">Keahlian & Tools</h3>
+                    <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-3">Keahlian & Tools ML</h3>
                     <div class="flex flex-wrap gap-2">
-                        <span class="bg-gray-100 text-gray-800 text-xs font-medium px-3 py-1.5 rounded-md">HTML / CSS</span>
-                        <span class="bg-gray-100 text-gray-800 text-xs font-medium px-3 py-1.5 rounded-md">JavaScript</span>
-                        <span class="bg-gray-100 text-gray-800 text-xs font-medium px-3 py-1.5 rounded-md">Tailwind CSS</span>
-                        <span class="bg-gray-100 text-gray-800 text-xs font-medium px-3 py-1.5 rounded-md">React.js</span>
-                        <span class="bg-gray-100 text-gray-800 text-xs font-medium px-3 py-1.5 rounded-md">Figma</span>
+                        <span class="bg-indigo-50 text-indigo-700 text-xs font-medium px-3 py-1.5 rounded-md">Python</span>
+                        <span class="bg-indigo-50 text-indigo-700 text-xs font-medium px-3 py-1.5 rounded-md">TensorFlow / Keras</span>
+                        <span class="bg-indigo-50 text-indigo-700 text-xs font-medium px-3 py-1.5 rounded-md">Scikit-Learn</span>
+                        <span class="bg-indigo-50 text-indigo-700 text-xs font-medium px-3 py-1.5 rounded-md">Pandas & NumPy</span>
+                        <span class="bg-indigo-50 text-indigo-700 text-xs font-medium px-3 py-1.5 rounded-md">SQL</span>
+                        <span class="bg-indigo-50 text-indigo-700 text-xs font-medium px-3 py-1.5 rounded-md">Git / GitHub</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- PROYEK -->
     <section id="proyek" class="max-w-5xl mx-auto px-6 py-20">
         <h2 class="text-2xl font-bold text-gray-950 tracking-tight mb-10">Proyek Pilihan</h2>
         
         <div class="grid md:grid-cols-2 gap-8">
-            <!-- Kartu Proyek 1 -->
             <div class="group bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md transition">
                 <div class="bg-gray-200 h-48 w-full flex items-center justify-center text-gray-400 group-hover:opacity-90 transition">
-                    <!-- Anda bisa ganti ini dengan tag <img> asli -->
-                    <span>Mockup Gambar Proyek 1</span>
+                    <span>[ Gambar/Mockup Proyek ML 1 ]</span>
                 </div>
                 <div class="p-6">
-                    <h3 class="text-lg font-bold text-gray-950 mb-2">E-Commerce Web App</h3>
-                    <p class="text-gray-600 text-sm mb-4">Membangun platform toko online dengan sistem pembayaran terintegrasi dan dasbor admin yang responsif.</p>
+                    <h3 class="text-lg font-bold text-gray-950 mb-2">Model Prediksi Data Finansial</h3>
+                    <p class="text-gray-600 text-sm mb-4">Membangun model regresi untuk memprediksi tren pasar menggunakan algoritma Machine Learning dengan tingkat akurasi tinggi.</p>
                     <div class="flex space-x-3 text-xs font-medium text-indigo-600">
-                        <span>React</span>
+                        <span>Python</span>
                         <span>•</span>
-                        <span>Tailwind</span>
+                        <span>Scikit-Learn</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Kartu Proyek 2 -->
             <div class="group bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md transition">
                 <div class="bg-gray-200 h-48 w-full flex items-center justify-center text-gray-400 group-hover:opacity-90 transition">
-                    <span>Mockup Gambar Proyek 2</span>
+                    <span>[ Gambar/Mockup Proyek ML 2 ]</span>
                 </div>
                 <div class="p-6">
-                    <h3 class="text-lg font-bold text-gray-950 mb-2">Redesain Aplikasi Keuangan</h3>
-                    <p class="text-gray-600 text-sm mb-4">Merancang ulang alur pengguna dan antarmuka aplikasi finansial untuk meningkatkan retensi pengguna sebesar 25%.</p>
+                    <h3 class="text-lg font-bold text-gray-950 mb-2">Klasifikasi Citra Digital</h3>
+                    <p class="text-gray-600 text-sm mb-4">Implementasi Convolutional Neural Network (CNN) untuk mendeteksi dan mengklasifikasikan objek pada gambar secara real-time.</p>
                     <div class="flex space-x-3 text-xs font-medium text-indigo-600">
-                        <span>Figma</span>
+                        <span>TensorFlow</span>
                         <span>•</span>
-                        <span>UI/UX</span>
+                        <span>Computer Vision</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- KONTAK -->
     <section id="kontak" class="bg-gray-950 text-white py-20">
         <div class="max-w-5xl mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold tracking-tight mb-4">Mari Bekerja Sama</h2>
+            <h2 class="text-3xl font-bold tracking-tight mb-4">Mari Terhubung</h2>
             <p class="text-gray-400 max-w-md mx-auto mb-8">
-                Punya ide proyek atau sekadar ingin menyapa? Pintu email saya selalu terbuka.
+                Saya selalu terbuka untuk diskusi mengenai Machine Learning, kolaborasi proyek, atau peluang kerja sama.
             </p>
-            <a href="mailto:emailanda@domain.com" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-8 py-3 rounded-lg shadow-sm transition">
-                Kirim Email
-            </a>
-            <div class="mt-12 pt-8 border-t border-gray-800 text-sm text-gray-500">
-                © 2026 Nama Anda. All rights reserved.
+            
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">
+                <a href="mailto:dimasputras2006@gmail.com" class="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-8 py-3 rounded-lg shadow-sm transition">
+                    Email: dimasputras2006@gmail.com
+                </a>
+                <a href="https://instagram.com/kanjengdimas2906" target="_blank" class="w-full sm:w-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:opacity-90 text-white font-medium px-8 py-3 rounded-lg shadow-sm transition">
+                    Instagram: @kanjengdimas2906
+                </a>
+            </div>
+
+            <div class="pt-8 border-t border-gray-800 text-sm text-gray-500">
+                © 2026 Muhammad Dimas. All rights reserved.
             </div>
         </div>
     </section>
